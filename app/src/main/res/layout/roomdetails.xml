@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="280dp"
+            android:id="@+id/rdheadimg"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdheading"
+                android:textSize="25dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdtsharing"
+                android:layout_below="@id/rdheading"
+                android:textSize="15dp"
+                android:text="Sharing : "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdsharing"
+                android:layout_alignBaseline="@id/rdtsharing"
+                android:layout_toRightOf="@id/rdtsharing"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdtac"
+                android:layout_below="@id/rdtsharing"
+                android:textSize="15dp"
+                android:text="Air conditioner : "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdac"
+                android:layout_alignBaseline="@id/rdtac"
+                android:layout_toRightOf="@id/rdtac"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdtwashroom"
+                android:layout_below="@id/rdtac"
+                android:textSize="15dp"
+                android:text="Washroom : "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdwashroom"
+                android:layout_alignBaseline="@id/rdtwashroom"
+                android:layout_toRightOf="@id/rdtwashroom"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdtbalcony"
+                android:textSize="15dp"
+                android:text="Balcony : "
+                android:layout_below="@id/rdtwashroom"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdbalcony"
+                android:layout_alignBaseline="@id/rdtbalcony"
+                android:layout_toRightOf="@id/rdtbalcony"
+                android:textSize="15dp"
+                />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

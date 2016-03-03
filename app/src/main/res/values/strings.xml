@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Shreedham girls pg</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="title_activity_main2">Shreedham</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Lodging</string>
+    <string name="title_section3">Facilities</string>
+    <string name="title_section4">Gallery</string>
+    <string name="title_section5">Nearby Colleges</string>
+    <string name="title_section6">how to reach</string>
+    <string name="title_section7">Contact Us</string>
+
+
+    <string-array name="places_of_interest">
+        <item>SRCC</item>
+        <item>Miranda</item>
+        <item>current location</item>
+        <item>enter location</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="login">Log In</string>
+</resources>

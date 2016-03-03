@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shreedham Girls' PG"
+            android:textSize="25dp"
+            android:id="@+id/t1"
+            android:layout_marginBottom="10dp"
+            android:textColor="#010101" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D-13 'B'"
+            android:textSize="15dp"
+            android:id="@+id/t2"
+            android:layout_below="@+id/t1"
+            android:layout_alignLeft="@+id/t1"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/t1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mahendru Enclave"
+            android:textSize="15dp"
+            android:id="@+id/t3"
+            android:layout_below="@+id/t2"
+            android:layout_alignLeft="@+id/t2"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/t2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mahendru Enclave"
+            android:textSize="15dp"
+            android:id="@+id/t4"
+            android:layout_below="@+id/t3"
+            android:layout_alignLeft="@+id/t3"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/t3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delhi,110009"
+            android:textSize="15dp"
+            android:id="@+id/t5"
+            android:layout_below="@+id/t3"
+            android:layout_alignLeft="@+id/t3"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/t3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Choose your current location"
+            android:textSize="15dp"
+            android:id="@+id/t6"
+            android:layout_below="@+id/t5"
+            android:layout_alignLeft="@+id/t5"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/t5"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_below="@+id/t6"
+            android:layout_alignLeft="@+id/t6"
+            android:layout_alignStart="@+id/t6"/>
+
+
+        <AutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/autocompletetextview"
+            android:layout_below="@+id/spinner"
+            android:layout_alignLeft="@+id/spinner"
+            android:layout_alignStart="@+id/spinner"/>
+
+
+
+    </RelativeLayout>
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+</LinearLayout>

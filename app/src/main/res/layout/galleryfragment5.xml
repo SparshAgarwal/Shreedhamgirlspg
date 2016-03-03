@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a100b0">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal" >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView20"
+            android:src="@drawable/washroom1"
+            android:background="#a100b0"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView21"
+            android:src="@drawable/washroom2"
+            android:background="#a100b0"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView22"
+            android:src="@drawable/washroom3"
+            android:background="#a100b0"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>

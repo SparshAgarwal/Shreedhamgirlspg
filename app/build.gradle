@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.sparsh.sparsh.shreedhamgirlspg"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.2"
+        signingConfigs {
+            release {
+                storeFile file("sparsh.keystore")
+                storePassword "computer@1"
+                keyAlias "sparshkeys"
+                keyPassword "computer@1"
+            }
+        }
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                signingConfig signingConfigs.release
+            }
+            debug {
+                signingConfig signingConfigs.release
+            }
+        }
+        productFlavors {
+        }
+    }
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile 'com.android.support:appcompat-v7:23.1.1'
+        compile 'com.google.android.gms:play-services:8.4.0'
+        compile 'com.google.android.gms:play-services-ads:8.4.0'
+        compile 'com.google.android.gms:play-services-identity:8.4.0'
+        compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    }
+}

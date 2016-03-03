@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:background="#d64d4d">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1) We treat girls as our guest and try our level best to give them all the facilities as much as possible."
+            android:textSize="15dp"
+            android:id="@+id/f1"
+            android:textColor="#010101" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2) Student's / Working women's second home 'Shreedham Girls PG is a truly safe and posh place in the residential area ."
+            android:textSize="15dp"
+            android:id="@+id/f2"
+            android:layout_below="@+id/f1"
+            android:layout_alignLeft="@+id/f1"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(3) It is near to Model Town, Delhi's one of the most popular shopping market ."
+            android:textSize="15dp"
+            android:id="@+id/f3"
+            android:layout_below="@+id/f2"
+            android:layout_alignLeft="@+id/f2"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(4) It is very spacious, neat and clean and well ventilated which is very essential for student's health and study."
+            android:textSize="15dp"
+            android:id="@+id/f4"
+            android:layout_below="@+id/f3"
+            android:layout_alignLeft="@+id/f3"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(5)The owner is taking care of the P.G. personally."
+            android:textSize="15dp"
+            android:id="@+id/f5"
+            android:layout_below="@+id/f4"
+            android:layout_alignLeft="@+id/f4"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f4"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(6) Health is very important,so he takes care of food personally and he doesn't compromise with quality."
+            android:textSize="15dp"
+            android:id="@+id/f6"
+            android:layout_below="@+id/f5"
+            android:layout_alignLeft="@+id/f5"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(7) Seats are limited and the admissions will be provided on the bases of behaviour and aptitude of the student towards studies."
+            android:textSize="15dp"
+            android:id="@+id/f7"
+            android:layout_below="@+id/f6"
+            android:layout_alignLeft="@+id/f6"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(8) Shreedham Girls P.G. is a good choice for students / Working Women in search of second home in Delhi."
+            android:textSize="15dp"
+            android:id="@+id/f8"
+            android:layout_below="@+id/f7"
+            android:layout_alignLeft="@+id/f7"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(9) Security on the hostel is ensured by constant vigilance and surveillance with the help of CCTV."
+            android:textSize="15dp"
+            android:id="@+id/f9"
+            android:layout_below="@+id/f8"
+            android:layout_alignLeft="@+id/f8"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f8"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(10) Girls who are on fast we provide special arrangement for them."
+            android:textSize="15dp"
+            android:id="@+id/f10"
+            android:layout_below="@+id/f9"
+            android:layout_alignLeft="@+id/f9"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f9"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(11) 24 hours cold and hot running water."
+            android:textSize="15dp"
+            android:id="@+id/f11"
+            android:layout_below="@+id/f10"
+            android:layout_alignLeft="@+id/f10"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(12) Doctor available on call"
+            android:textSize="15dp"
+            android:id="@+id/f12"
+            android:layout_below="@+id/f11"
+            android:layout_alignLeft="@+id/f11"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f11"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(13) Wi-Fi facility is available in every room."
+            android:textSize="15dp"
+            android:id="@+id/f13"
+            android:layout_below="@+id/f12"
+            android:layout_alignLeft="@+id/f12"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f12"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(14) Fully Furnished modern rooms with Attach Bathrooms."
+            android:textSize="15dp"
+            android:id="@+id/f14"
+            android:layout_below="@+id/f13"
+            android:layout_alignLeft="@+id/f13"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f13"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(15) 24 hours RO water is available for drinking."
+            android:textSize="15dp"
+            android:id="@+id/f15"
+            android:layout_below="@+id/f14"
+            android:layout_alignLeft="@+id/f14"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f14"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(16) Vegetarian meals as per 'Meals Menu' below are served in fully furnished dinning hall with LCD."
+            android:textSize="15dp"
+            android:id="@+id/f16"
+            android:layout_below="@+id/f15"
+            android:layout_alignLeft="@+id/f15"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f15"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(17) Twin and Triple shearing AC rooms having separate wardrobe,locker,boxbed,study table and chair for every person."
+            android:textSize="15dp"
+            android:id="@+id/f17"
+            android:layout_below="@+id/f16"
+            android:layout_alignLeft="@+id/f16"
+            android:textColor="#010101"
+            android:layout_alignStart="@+id/f16"/>
+
+
+    </RelativeLayout>
+</ScrollView>
+</LinearLayout>
